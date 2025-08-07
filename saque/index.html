@@ -2057,21 +2057,4 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
           setInterval(showTestimonial, 7000); // Exibir um novo depoimento a cada 7 segundos
       });
   </script>
-</body>
-<script>
-(function () {
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  const backRedirectURL = "https://hanan-lupo.github.io/hanan-lupo/desconto/index.html";
-
-  if (!isMobile) return; // Aplica apenas em dispositivos móveis
-
-  // Empurra um estado falso para o histórico
-  history.pushState(null, null, location.href);
-
-  window.addEventListener("popstate", function () {
-    // Isso é chamado quando o usuário aperta o botão voltar
-    window.location.href = backRedirectURL;
-  });
-})();
-</script>
-</html><!-- Page cached by LiteSpeed Cache 6.5.4 on 2024-12-31 18:42:59 -->
+</body></html><!-- Page cached by LiteSpeed Cache 6.5.4 on 2024-12-31 18:42:59 -->

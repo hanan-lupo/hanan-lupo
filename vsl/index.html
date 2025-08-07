@@ -392,21 +392,4 @@
   <script src="elements-handlers.min.js%2540ver%253D3.24.4/index.html" id="pro-elements-handlers-js"></script>
 
 
-</body>
-<script>
-(function () {
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  const backRedirectURL = "https://hanan-lupo.github.io/hanan-lupo/desconto/index.html";
-
-  if (!isMobile) return; // Aplica apenas em dispositivos móveis
-
-  // Empurra um estado falso para o histórico
-  history.pushState(null, null, location.href);
-
-  window.addEventListener("popstate", function () {
-    // Isso é chamado quando o usuário aperta o botão voltar
-    window.location.href = backRedirectURL;
-  });
-})();
-</script>
-</html>
+</body></html>
